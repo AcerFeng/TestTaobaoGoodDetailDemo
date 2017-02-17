@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6636A4981E56A2120076C304 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6636A4971E56A2120076C304 /* main.m */; };
+		6636A49B1E56A2120076C304 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6636A49A1E56A2120076C304 /* AppDelegate.m */; };
+		6636A49E1E56A2120076C304 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6636A49D1E56A2120076C304 /* ViewController.m */; };
+		6636A4A11E56A2120076C304 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6636A49F1E56A2120076C304 /* Main.storyboard */; };
+		6636A4A31E56A2120076C304 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6636A4A21E56A2120076C304 /* Assets.xcassets */; };
+		6636A4A61E56A2130076C304 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6636A4A41E56A2130076C304 /* LaunchScreen.storyboard */; };
+		6636A4B11E56A2130076C304 /* TestTaobaoGoodDetailDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6636A4B01E56A2130076C304 /* TestTaobaoGoodDetailDemoTests.m */; };
+		6636A4BC1E56A2130076C304 /* TestTaobaoGoodDetailDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6636A4BB1E56A2130076C304 /* TestTaobaoGoodDetailDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6636A4AD1E56A2130076C304 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6636A48B1E56A2120076C304 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6636A4921E56A2120076C304;
+			remoteInfo = TestTaobaoGoodDetailDemo;
+		};
+		6636A4B81E56A2130076C304 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6636A48B1E56A2120076C304 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6636A4921E56A2120076C304;
+			remoteInfo = TestTaobaoGoodDetailDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6636A4931E56A2120076C304 /* TestTaobaoGoodDetailDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTaobaoGoodDetailDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6636A4971E56A2120076C304 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6636A4991E56A2120076C304 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6636A49A1E56A2120076C304 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6636A49C1E56A2120076C304 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6636A49D1E56A2120076C304 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6636A4A01E56A2120076C304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6636A4A21E56A2120076C304 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6636A4A51E56A2130076C304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6636A4A71E56A2130076C304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6636A4AC1E56A2130076C304 /* TestTaobaoGoodDetailDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTaobaoGoodDetailDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6636A4B01E56A2130076C304 /* TestTaobaoGoodDetailDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTaobaoGoodDetailDemoTests.m; sourceTree = "<group>"; };
+		6636A4B21E56A2130076C304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6636A4B71E56A2130076C304 /* TestTaobaoGoodDetailDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTaobaoGoodDetailDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6636A4BB1E56A2130076C304 /* TestTaobaoGoodDetailDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTaobaoGoodDetailDemoUITests.m; sourceTree = "<group>"; };
+		6636A4BD1E56A2130076C304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6636A4901E56A2120076C304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6636A4A91E56A2130076C304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6636A4B41E56A2130076C304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6636A48A1E56A2120076C304 = {
+			isa = PBXGroup;
+			children = (
+				6636A4951E56A2120076C304 /* TestTaobaoGoodDetailDemo */,
+				6636A4AF1E56A2130076C304 /* TestTaobaoGoodDetailDemoTests */,
+				6636A4BA1E56A2130076C304 /* TestTaobaoGoodDetailDemoUITests */,
+				6636A4941E56A2120076C304 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6636A4941E56A2120076C304 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6636A4931E56A2120076C304 /* TestTaobaoGoodDetailDemo.app */,
+				6636A4AC1E56A2130076C304 /* TestTaobaoGoodDetailDemoTests.xctest */,
+				6636A4B71E56A2130076C304 /* TestTaobaoGoodDetailDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6636A4951E56A2120076C304 /* TestTaobaoGoodDetailDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6636A4991E56A2120076C304 /* AppDelegate.h */,
+				6636A49A1E56A2120076C304 /* AppDelegate.m */,
+				6636A49C1E56A2120076C304 /* ViewController.h */,
+				6636A49D1E56A2120076C304 /* ViewController.m */,
+				6636A49F1E56A2120076C304 /* Main.storyboard */,
+				6636A4A21E56A2120076C304 /* Assets.xcassets */,
+				6636A4A41E56A2130076C304 /* LaunchScreen.storyboard */,
+				6636A4A71E56A2130076C304 /* Info.plist */,
+				6636A4961E56A2120076C304 /* Supporting Files */,
+			);
+			path = TestTaobaoGoodDetailDemo;
+			sourceTree = "<group>";
+		};
+		6636A4961E56A2120076C304 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6636A4971E56A2120076C304 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6636A4AF1E56A2130076C304 /* TestTaobaoGoodDetailDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6636A4B01E56A2130076C304 /* TestTaobaoGoodDetailDemoTests.m */,
+				6636A4B21E56A2130076C304 /* Info.plist */,
+			);
+			path = TestTaobaoGoodDetailDemoTests;
+			sourceTree = "<group>";
+		};
+		6636A4BA1E56A2130076C304 /* TestTaobaoGoodDetailDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6636A4BB1E56A2130076C304 /* TestTaobaoGoodDetailDemoUITests.m */,
+				6636A4BD1E56A2130076C304 /* Info.plist */,
+			);
+			path = TestTaobaoGoodDetailDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6636A4921E56A2120076C304 /* TestTaobaoGoodDetailDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6636A4C01E56A2130076C304 /* Build configuration list for PBXNativeTarget "TestTaobaoGoodDetailDemo" */;
+			buildPhases = (
+				6636A48F1E56A2120076C304 /* Sources */,
+				6636A4901E56A2120076C304 /* Frameworks */,
+				6636A4911E56A2120076C304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestTaobaoGoodDetailDemo;
+			productName = TestTaobaoGoodDetailDemo;
+			productReference = 6636A4931E56A2120076C304 /* TestTaobaoGoodDetailDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6636A4AB1E56A2130076C304 /* TestTaobaoGoodDetailDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6636A4C31E56A2130076C304 /* Build configuration list for PBXNativeTarget "TestTaobaoGoodDetailDemoTests" */;
+			buildPhases = (
+				6636A4A81E56A2130076C304 /* Sources */,
+				6636A4A91E56A2130076C304 /* Frameworks */,
+				6636A4AA1E56A2130076C304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6636A4AE1E56A2130076C304 /* PBXTargetDependency */,
+			);
+			name = TestTaobaoGoodDetailDemoTests;
+			productName = TestTaobaoGoodDetailDemoTests;
+			productReference = 6636A4AC1E56A2130076C304 /* TestTaobaoGoodDetailDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6636A4B61E56A2130076C304 /* TestTaobaoGoodDetailDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6636A4C61E56A2130076C304 /* Build configuration list for PBXNativeTarget "TestTaobaoGoodDetailDemoUITests" */;
+			buildPhases = (
+				6636A4B31E56A2130076C304 /* Sources */,
+				6636A4B41E56A2130076C304 /* Frameworks */,
+				6636A4B51E56A2130076C304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6636A4B91E56A2130076C304 /* PBXTargetDependency */,
+			);
+			name = TestTaobaoGoodDetailDemoUITests;
+			productName = TestTaobaoGoodDetailDemoUITests;
+			productReference = 6636A4B71E56A2130076C304 /* TestTaobaoGoodDetailDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6636A48B1E56A2120076C304 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = lanfeng;
+				TargetAttributes = {
+					6636A4921E56A2120076C304 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					6636A4AB1E56A2130076C304 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6636A4921E56A2120076C304;
+					};
+					6636A4B61E56A2130076C304 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6636A4921E56A2120076C304;
+					};
+				};
+			};
+			buildConfigurationList = 6636A48E1E56A2120076C304 /* Build configuration list for PBXProject "TestTaobaoGoodDetailDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6636A48A1E56A2120076C304;
+			productRefGroup = 6636A4941E56A2120076C304 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6636A4921E56A2120076C304 /* TestTaobaoGoodDetailDemo */,
+				6636A4AB1E56A2130076C304 /* TestTaobaoGoodDetailDemoTests */,
+				6636A4B61E56A2130076C304 /* TestTaobaoGoodDetailDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6636A4911E56A2120076C304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6636A4A61E56A2130076C304 /* LaunchScreen.storyboard in Resources */,
+				6636A4A31E56A2120076C304 /* Assets.xcassets in Resources */,
+				6636A4A11E56A2120076C304 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6636A4AA1E56A2130076C304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6636A4B51E56A2130076C304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6636A48F1E56A2120076C304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6636A49E1E56A2120076C304 /* ViewController.m in Sources */,
+				6636A49B1E56A2120076C304 /* AppDelegate.m in Sources */,
+				6636A4981E56A2120076C304 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6636A4A81E56A2130076C304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6636A4B11E56A2130076C304 /* TestTaobaoGoodDetailDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6636A4B31E56A2130076C304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6636A4BC1E56A2130076C304 /* TestTaobaoGoodDetailDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6636A4AE1E56A2130076C304 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6636A4921E56A2120076C304 /* TestTaobaoGoodDetailDemo */;
+			targetProxy = 6636A4AD1E56A2130076C304 /* PBXContainerItemProxy */;
+		};
+		6636A4B91E56A2130076C304 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6636A4921E56A2120076C304 /* TestTaobaoGoodDetailDemo */;
+			targetProxy = 6636A4B81E56A2130076C304 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6636A49F1E56A2120076C304 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6636A4A01E56A2120076C304 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6636A4A41E56A2130076C304 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6636A4A51E56A2130076C304 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6636A4BE1E56A2130076C304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6636A4BF1E56A2130076C304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6636A4C11E56A2130076C304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestTaobaoGoodDetailDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanfeng.www.TestTaobaoGoodDetailDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6636A4C21E56A2130076C304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestTaobaoGoodDetailDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanfeng.www.TestTaobaoGoodDetailDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6636A4C41E56A2130076C304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestTaobaoGoodDetailDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanfeng.www.TestTaobaoGoodDetailDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestTaobaoGoodDetailDemo.app/TestTaobaoGoodDetailDemo";
+			};
+			name = Debug;
+		};
+		6636A4C51E56A2130076C304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestTaobaoGoodDetailDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanfeng.www.TestTaobaoGoodDetailDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestTaobaoGoodDetailDemo.app/TestTaobaoGoodDetailDemo";
+			};
+			name = Release;
+		};
+		6636A4C71E56A2130076C304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestTaobaoGoodDetailDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanfeng.www.TestTaobaoGoodDetailDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestTaobaoGoodDetailDemo;
+			};
+			name = Debug;
+		};
+		6636A4C81E56A2130076C304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestTaobaoGoodDetailDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lanfeng.www.TestTaobaoGoodDetailDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestTaobaoGoodDetailDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6636A48E1E56A2120076C304 /* Build configuration list for PBXProject "TestTaobaoGoodDetailDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6636A4BE1E56A2130076C304 /* Debug */,
+				6636A4BF1E56A2130076C304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6636A4C01E56A2130076C304 /* Build configuration list for PBXNativeTarget "TestTaobaoGoodDetailDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6636A4C11E56A2130076C304 /* Debug */,
+				6636A4C21E56A2130076C304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6636A4C31E56A2130076C304 /* Build configuration list for PBXNativeTarget "TestTaobaoGoodDetailDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6636A4C41E56A2130076C304 /* Debug */,
+				6636A4C51E56A2130076C304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6636A4C61E56A2130076C304 /* Build configuration list for PBXNativeTarget "TestTaobaoGoodDetailDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6636A4C71E56A2130076C304 /* Debug */,
+				6636A4C81E56A2130076C304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6636A48B1E56A2120076C304 /* Project object */;
+}
