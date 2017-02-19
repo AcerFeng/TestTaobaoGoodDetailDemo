@@ -16,6 +16,8 @@
 		6636A4B11E56A2130076C304 /* TestTaobaoGoodDetailDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6636A4B01E56A2130076C304 /* TestTaobaoGoodDetailDemoTests.m */; };
 		6636A4BC1E56A2130076C304 /* TestTaobaoGoodDetailDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6636A4BB1E56A2130076C304 /* TestTaobaoGoodDetailDemoUITests.m */; };
 		66A39E2E1E59C6FE00928E08 /* TestTaobaoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A39E2D1E59C6FE00928E08 /* TestTaobaoDetailViewController.m */; };
+		66A39E311E5A010F00928E08 /* TaobaoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A39E301E5A010F00928E08 /* TaobaoDetailViewController.m */; };
+		66A39E341E5A0A2D00928E08 /* TestScrollVew.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A39E331E5A0A2D00928E08 /* TestScrollVew.m */; };
 		82216F7FC40A717CA3B5284B /* libPods-TestTaobaoGoodDetailDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FEFD416305C11E2AB2F947 /* libPods-TestTaobaoGoodDetailDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +57,10 @@
 		6636A4BD1E56A2130076C304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66A39E2C1E59C6FE00928E08 /* TestTaobaoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTaobaoDetailViewController.h; sourceTree = "<group>"; };
 		66A39E2D1E59C6FE00928E08 /* TestTaobaoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTaobaoDetailViewController.m; sourceTree = "<group>"; };
+		66A39E2F1E5A010F00928E08 /* TaobaoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaobaoDetailViewController.h; sourceTree = "<group>"; };
+		66A39E301E5A010F00928E08 /* TaobaoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaobaoDetailViewController.m; sourceTree = "<group>"; };
+		66A39E321E5A0A2D00928E08 /* TestScrollVew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestScrollVew.h; sourceTree = "<group>"; };
+		66A39E331E5A0A2D00928E08 /* TestScrollVew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestScrollVew.m; sourceTree = "<group>"; };
 		6D446BD444BDBC8A75A98EA2 /* Pods-TestTaobaoGoodDetailDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTaobaoGoodDetailDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestTaobaoGoodDetailDemo/Pods-TestTaobaoGoodDetailDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		9832FEEE2BF1B490FBC315BC /* Pods-TestTaobaoGoodDetailDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTaobaoGoodDetailDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestTaobaoGoodDetailDemo/Pods-TestTaobaoGoodDetailDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F5FEFD416305C11E2AB2F947 /* libPods-TestTaobaoGoodDetailDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestTaobaoGoodDetailDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,6 +137,10 @@
 				6636A4961E56A2120076C304 /* Supporting Files */,
 				66A39E2C1E59C6FE00928E08 /* TestTaobaoDetailViewController.h */,
 				66A39E2D1E59C6FE00928E08 /* TestTaobaoDetailViewController.m */,
+				66A39E2F1E5A010F00928E08 /* TaobaoDetailViewController.h */,
+				66A39E301E5A010F00928E08 /* TaobaoDetailViewController.m */,
+				66A39E321E5A0A2D00928E08 /* TestScrollVew.h */,
+				66A39E331E5A0A2D00928E08 /* TestScrollVew.m */,
 			);
 			path = TestTaobaoGoodDetailDemo;
 			sourceTree = "<group>";
@@ -353,6 +363,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66A39E311E5A010F00928E08 /* TaobaoDetailViewController.m in Sources */,
+				66A39E341E5A0A2D00928E08 /* TestScrollVew.m in Sources */,
 				6636A49E1E56A2120076C304 /* ViewController.m in Sources */,
 				6636A49B1E56A2120076C304 /* AppDelegate.m in Sources */,
 				66A39E2E1E59C6FE00928E08 /* TestTaobaoDetailViewController.m in Sources */,

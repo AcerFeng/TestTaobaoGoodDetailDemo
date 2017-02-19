@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "TestTaobaoDetailViewController.h"
+#import "TaobaoDetailViewController.h"
 
 
 #define ScreenSize [UIScreen mainScreen].bounds.size
@@ -42,6 +44,13 @@
 #pragma mark - event response
 
 #pragma mark - UITableViewDelegate
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if (indexPath.row > 10) {
+        [self.navigationController pushViewController:[[TaobaoDetailViewController alloc] init] animated:YES];
+        return;
+    }
+    [self.navigationController pushViewController:[[TestTaobaoDetailViewController alloc] init] animated:YES];
+}
 
 #pragma mark - UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -88,7 +97,7 @@
 #pragma mark - getters and setters
 - (UIScrollView *)scrollView {
     if (!_scrollView) {
-        _scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, ScreenSize.width, ScreenSize.height)];
+        _scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 64, ScreenSize.width, ScreenSize.height)];
         _scrollView.contentSize = CGSizeMake(ScreenSize.width, ScreenSize.height * 2);
         _scrollView.delegate = self;
         
