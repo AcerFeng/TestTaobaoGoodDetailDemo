@@ -15,6 +15,8 @@
 		6636A4A61E56A2130076C304 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6636A4A41E56A2130076C304 /* LaunchScreen.storyboard */; };
 		6636A4B11E56A2130076C304 /* TestTaobaoGoodDetailDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6636A4B01E56A2130076C304 /* TestTaobaoGoodDetailDemoTests.m */; };
 		6636A4BC1E56A2130076C304 /* TestTaobaoGoodDetailDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6636A4BB1E56A2130076C304 /* TestTaobaoGoodDetailDemoUITests.m */; };
+		66A39E2E1E59C6FE00928E08 /* TestTaobaoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A39E2D1E59C6FE00928E08 /* TestTaobaoDetailViewController.m */; };
+		82216F7FC40A717CA3B5284B /* libPods-TestTaobaoGoodDetailDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FEFD416305C11E2AB2F947 /* libPods-TestTaobaoGoodDetailDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,11 @@
 		6636A4B71E56A2130076C304 /* TestTaobaoGoodDetailDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTaobaoGoodDetailDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6636A4BB1E56A2130076C304 /* TestTaobaoGoodDetailDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTaobaoGoodDetailDemoUITests.m; sourceTree = "<group>"; };
 		6636A4BD1E56A2130076C304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66A39E2C1E59C6FE00928E08 /* TestTaobaoDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTaobaoDetailViewController.h; sourceTree = "<group>"; };
+		66A39E2D1E59C6FE00928E08 /* TestTaobaoDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTaobaoDetailViewController.m; sourceTree = "<group>"; };
+		6D446BD444BDBC8A75A98EA2 /* Pods-TestTaobaoGoodDetailDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTaobaoGoodDetailDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestTaobaoGoodDetailDemo/Pods-TestTaobaoGoodDetailDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9832FEEE2BF1B490FBC315BC /* Pods-TestTaobaoGoodDetailDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestTaobaoGoodDetailDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestTaobaoGoodDetailDemo/Pods-TestTaobaoGoodDetailDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F5FEFD416305C11E2AB2F947 /* libPods-TestTaobaoGoodDetailDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestTaobaoGoodDetailDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82216F7FC40A717CA3B5284B /* libPods-TestTaobaoGoodDetailDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A00E3618B6E24A890EC2382 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D446BD444BDBC8A75A98EA2 /* Pods-TestTaobaoGoodDetailDemo.debug.xcconfig */,
+				9832FEEE2BF1B490FBC315BC /* Pods-TestTaobaoGoodDetailDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6636A48A1E56A2120076C304 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +102,8 @@
 				6636A4AF1E56A2130076C304 /* TestTaobaoGoodDetailDemoTests */,
 				6636A4BA1E56A2130076C304 /* TestTaobaoGoodDetailDemoUITests */,
 				6636A4941E56A2120076C304 /* Products */,
+				0A00E3618B6E24A890EC2382 /* Pods */,
+				CE32F1A2B8715FDB6987AB1B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +129,8 @@
 				6636A4A41E56A2130076C304 /* LaunchScreen.storyboard */,
 				6636A4A71E56A2130076C304 /* Info.plist */,
 				6636A4961E56A2120076C304 /* Supporting Files */,
+				66A39E2C1E59C6FE00928E08 /* TestTaobaoDetailViewController.h */,
+				66A39E2D1E59C6FE00928E08 /* TestTaobaoDetailViewController.m */,
 			);
 			path = TestTaobaoGoodDetailDemo;
 			sourceTree = "<group>";
@@ -140,6 +161,14 @@
 			path = TestTaobaoGoodDetailDemoUITests;
 			sourceTree = "<group>";
 		};
+		CE32F1A2B8715FDB6987AB1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5FEFD416305C11E2AB2F947 /* libPods-TestTaobaoGoodDetailDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6636A4C01E56A2130076C304 /* Build configuration list for PBXNativeTarget "TestTaobaoGoodDetailDemo" */;
 			buildPhases = (
+				9A8E89A032FC8469FEA900ED /* [CP] Check Pods Manifest.lock */,
 				6636A48F1E56A2120076C304 /* Sources */,
 				6636A4901E56A2120076C304 /* Frameworks */,
 				6636A4911E56A2120076C304 /* Resources */,
+				86D27E04A2F3BB0544FD7531 /* [CP] Embed Pods Frameworks */,
+				6929A36BAEBB1D4CA2CEDB64 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,6 +300,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6929A36BAEBB1D4CA2CEDB64 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestTaobaoGoodDetailDemo/Pods-TestTaobaoGoodDetailDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86D27E04A2F3BB0544FD7531 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestTaobaoGoodDetailDemo/Pods-TestTaobaoGoodDetailDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A8E89A032FC8469FEA900ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6636A48F1E56A2120076C304 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -275,6 +355,7 @@
 			files = (
 				6636A49E1E56A2120076C304 /* ViewController.m in Sources */,
 				6636A49B1E56A2120076C304 /* AppDelegate.m in Sources */,
+				66A39E2E1E59C6FE00928E08 /* TestTaobaoDetailViewController.m in Sources */,
 				6636A4981E56A2120076C304 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +501,7 @@
 		};
 		6636A4C11E56A2130076C304 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D446BD444BDBC8A75A98EA2 /* Pods-TestTaobaoGoodDetailDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestTaobaoGoodDetailDemo/Info.plist;
@@ -431,6 +513,7 @@
 		};
 		6636A4C21E56A2130076C304 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9832FEEE2BF1B490FBC315BC /* Pods-TestTaobaoGoodDetailDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestTaobaoGoodDetailDemo/Info.plist;
@@ -505,6 +588,7 @@
 				6636A4C21E56A2130076C304 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6636A4C31E56A2130076C304 /* Build configuration list for PBXNativeTarget "TestTaobaoGoodDetailDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +597,7 @@
 				6636A4C51E56A2130076C304 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6636A4C61E56A2130076C304 /* Build configuration list for PBXNativeTarget "TestTaobaoGoodDetailDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +606,7 @@
 				6636A4C81E56A2130076C304 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
